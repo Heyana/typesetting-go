@@ -1,0 +1,36 @@
+name: Test
+on: [push, pull_request]
+permissions:
+  contents: read
+
+jobs:
+  test:
+    strategy:
+      matrix:
+        go-version: [1.19.x, stable]
+        os: [ubuntu-latest, windows-latest, macos-latest]
+
+    runs-on: ${{ matrix.os }}
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        persist-credentials: false
+    - uses: actions/setup-go@v6
+      with:
+        go-version: ${{ matrix.go-version }}
+
+    # shaping/chb.go (android || darwin) links FreeType and HarfBuzz static
+    # libraries, which are per-machine artifacts and are not committed. The
+    # macOS runners compile that file, so build the libraries there first;
+    # Linux and Windows never build it.
+    - name: Build HarfBuzz and FreeType (macOS)
+      if: runner.os == 'macOS'
+      run: |
+        python3 -m pip install --quiet meson ninja
+        sh hb-build/build.sh macos
+
+    - name: Test
+      run: go test ./...
+
+    - name: Build without tests
+      run: go build ./...
