@@ -1,8 +1,8 @@
 package shaping
 
 import (
-	"github.com/Heyana/typesetting/font"
-	"github.com/Heyana/typesetting/harfbuzz"
+	"github.com/Heyana/typesetting-go/font"
+	"github.com/Heyana/typesetting-go/harfbuzz"
 )
 
 // adjust the cache size of the zero value, used by default

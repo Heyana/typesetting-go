@@ -5,7 +5,7 @@ package font
 import (
 	"encoding/binary"
 
-	"github.com/Heyana/typesetting/font/opentype/tables"
+	"github.com/Heyana/typesetting-go/font/opentype/tables"
 )
 
 // Kernx represents a 'kern' or 'kerx' kerning table.

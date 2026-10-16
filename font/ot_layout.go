@@ -2,7 +2,7 @@
 
 package font
 
-import "github.com/Heyana/typesetting/font/opentype/tables"
+import "github.com/Heyana/typesetting-go/font/opentype/tables"
 
 // shared between GSUB and GPOS
 type Layout struct {

@@ -3,8 +3,8 @@ package unicodedata
 import (
 	"testing"
 
-	"github.com/Heyana/typesetting/language"
-	tu "github.com/Heyana/typesetting/testutils"
+	"github.com/Heyana/typesetting-go/language"
+	tu "github.com/Heyana/typesetting-go/testutils"
 )
 
 var composeTests = []struct {

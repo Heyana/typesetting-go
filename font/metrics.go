@@ -5,8 +5,8 @@ package font
 import (
 	"math"
 
-	ot "github.com/Heyana/typesetting/font/opentype"
-	"github.com/Heyana/typesetting/font/opentype/tables"
+	ot "github.com/Heyana/typesetting-go/font/opentype"
+	"github.com/Heyana/typesetting-go/font/opentype/tables"
 )
 
 type gID = tables.GlyphID

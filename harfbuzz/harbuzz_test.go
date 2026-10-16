@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/Heyana/typesetting/font"
-	ot "github.com/Heyana/typesetting/font/opentype"
-	"github.com/Heyana/typesetting/language"
-	tu "github.com/Heyana/typesetting/testutils"
+	"github.com/Heyana/typesetting-go/font"
+	ot "github.com/Heyana/typesetting-go/font/opentype"
+	"github.com/Heyana/typesetting-go/language"
+	tu "github.com/Heyana/typesetting-go/testutils"
 	td "github.com/go-text/typesetting-utils/harfbuzz"
 	otTD "github.com/go-text/typesetting-utils/opentype"
 )

@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Heyana/typesetting/di"
-	"github.com/Heyana/typesetting/font"
+	"github.com/Heyana/typesetting-go/di"
+	"github.com/Heyana/typesetting-go/font"
 )
 
 // Correctness regression for the move to C HarfBuzz: glyph by glyph against

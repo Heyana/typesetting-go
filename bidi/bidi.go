@@ -5,7 +5,7 @@
 package bidi
 
 import (
-	ucd "github.com/Heyana/typesetting/internal/unicodedata"
+	ucd "github.com/Heyana/typesetting-go/internal/unicodedata"
 )
 
 // Paragraph is the main entry point of the package.

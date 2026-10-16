@@ -1,9 +1,9 @@
 package harfbuzz
 
 import (
-	"github.com/Heyana/typesetting/font"
-	ot "github.com/Heyana/typesetting/font/opentype"
-	"github.com/Heyana/typesetting/font/opentype/tables"
+	"github.com/Heyana/typesetting-go/font"
+	ot "github.com/Heyana/typesetting-go/font/opentype"
+	"github.com/Heyana/typesetting-go/font/opentype/tables"
 )
 
 // ported from harfbuzz/src/hb-ot-shape-complex-arabic-win1256.hh Copyright © 2014  Google, Inc. Behdad Esfahbod

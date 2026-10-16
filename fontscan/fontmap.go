@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/Heyana/typesetting/font"
-	ot "github.com/Heyana/typesetting/font/opentype"
-	"github.com/Heyana/typesetting/language"
+	"github.com/Heyana/typesetting-go/font"
+	ot "github.com/Heyana/typesetting-go/font/opentype"
+	"github.com/Heyana/typesetting-go/language"
 )
 
 type cacheEntry struct {

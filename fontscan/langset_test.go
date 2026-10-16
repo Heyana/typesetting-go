@@ -4,9 +4,9 @@ import (
 	"os"
 	"testing"
 
-	ot "github.com/Heyana/typesetting/font/opentype"
-	"github.com/Heyana/typesetting/language"
-	tu "github.com/Heyana/typesetting/testutils"
+	ot "github.com/Heyana/typesetting-go/font/opentype"
+	"github.com/Heyana/typesetting-go/language"
+	tu "github.com/Heyana/typesetting-go/testutils"
 )
 
 func TestNewLangset(t *testing.T) {

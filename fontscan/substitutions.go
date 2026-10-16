@@ -3,7 +3,7 @@ package fontscan
 import (
 	"strings"
 
-	"github.com/Heyana/typesetting/font"
+	"github.com/Heyana/typesetting-go/font"
 )
 
 // this file implements the family substitution feature,

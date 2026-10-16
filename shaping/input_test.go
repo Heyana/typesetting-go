@@ -6,10 +6,10 @@ import (
 	"testing"
 	"unicode"
 
-	"github.com/Heyana/typesetting/di"
-	"github.com/Heyana/typesetting/font"
-	"github.com/Heyana/typesetting/language"
-	tu "github.com/Heyana/typesetting/testutils"
+	"github.com/Heyana/typesetting-go/di"
+	"github.com/Heyana/typesetting-go/font"
+	"github.com/Heyana/typesetting-go/language"
+	tu "github.com/Heyana/typesetting-go/testutils"
 )
 
 func Test_ignoreFaceChange(t *testing.T) {
@@ -746,7 +746,7 @@ func TestSplit(t *testing.T) {
 }
 
 func TestIssue127(t *testing.T) {
-	// regression test for https://github.com/Heyana/typesetting/issues/127
+	// regression test for https://github.com/Heyana/typesetting-go/issues/127
 	str := []rune("لمّا")
 	input := Input{
 		Text:      str,

@@ -3,9 +3,9 @@ package harfbuzz
 import (
 	"testing"
 
-	ot "github.com/Heyana/typesetting/font/opentype"
-	"github.com/Heyana/typesetting/font/opentype/tables"
-	"github.com/Heyana/typesetting/language"
+	ot "github.com/Heyana/typesetting-go/font/opentype"
+	"github.com/Heyana/typesetting-go/font/opentype/tables"
+	"github.com/Heyana/typesetting-go/language"
 )
 
 // ported from harfbuzz/test/api/test-ot-tag.c Copyright © 2011  Google, Inc. Behdad Esfahbod

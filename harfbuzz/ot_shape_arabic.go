@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/Heyana/typesetting/font"
-	ot "github.com/Heyana/typesetting/font/opentype"
-	"github.com/Heyana/typesetting/font/opentype/tables"
-	ucd "github.com/Heyana/typesetting/internal/unicodedata"
-	"github.com/Heyana/typesetting/language"
+	"github.com/Heyana/typesetting-go/font"
+	ot "github.com/Heyana/typesetting-go/font/opentype"
+	"github.com/Heyana/typesetting-go/font/opentype/tables"
+	ucd "github.com/Heyana/typesetting-go/internal/unicodedata"
+	"github.com/Heyana/typesetting-go/language"
 )
 
 // ported from harfbuzz/src/hb-ot-shape-complex-arabic.cc, hb-ot-shape-complex-arabic-fallback.hh Copyright © 2010,2012  Google, Inc. Behdad Esfahbod

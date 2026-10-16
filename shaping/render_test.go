@@ -7,8 +7,8 @@ import (
 	"image/png"
 	"os"
 
-	"github.com/Heyana/typesetting/font"
-	"github.com/Heyana/typesetting/font/opentype"
+	"github.com/Heyana/typesetting-go/font"
+	"github.com/Heyana/typesetting-go/font/opentype"
 )
 
 // this file implements a very primitive "rasterizer", which can

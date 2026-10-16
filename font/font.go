@@ -10,9 +10,9 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/Heyana/typesetting/font/cff"
-	ot "github.com/Heyana/typesetting/font/opentype"
-	"github.com/Heyana/typesetting/font/opentype/tables"
+	"github.com/Heyana/typesetting-go/font/cff"
+	ot "github.com/Heyana/typesetting-go/font/opentype"
+	"github.com/Heyana/typesetting-go/font/opentype/tables"
 )
 
 type (

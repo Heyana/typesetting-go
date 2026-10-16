@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"math/bits"
 
-	"github.com/Heyana/typesetting/font"
-	"github.com/Heyana/typesetting/font/opentype/tables"
+	"github.com/Heyana/typesetting-go/font"
+	"github.com/Heyana/typesetting-go/font/opentype/tables"
 )
 
 const maxContextLength = 64

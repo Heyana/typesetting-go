@@ -1,7 +1,7 @@
 package di
 
 import (
-	"github.com/Heyana/typesetting/harfbuzz"
+	"github.com/Heyana/typesetting-go/harfbuzz"
 )
 
 // Direction indicates the layout direction of a piece of text.

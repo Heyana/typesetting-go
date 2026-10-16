@@ -5,7 +5,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/Heyana/typesetting/language"
+	"github.com/Heyana/typesetting-go/language"
 )
 
 // LangID is a compact representation of a language

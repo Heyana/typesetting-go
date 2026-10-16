@@ -1,9 +1,9 @@
 package harfbuzz
 
 import (
-	ot "github.com/Heyana/typesetting/font/opentype"
-	"github.com/Heyana/typesetting/font/opentype/tables"
-	ucd "github.com/Heyana/typesetting/internal/unicodedata"
+	ot "github.com/Heyana/typesetting-go/font/opentype"
+	"github.com/Heyana/typesetting-go/font/opentype/tables"
+	ucd "github.com/Heyana/typesetting-go/internal/unicodedata"
 )
 
 // ported from harfbuzz/src/hb-ot-shape-complex-hebrew.cc Copyright © 2010,2012  Google, Inc.  Behdad Esfahbod

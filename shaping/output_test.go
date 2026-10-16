@@ -7,10 +7,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Heyana/typesetting/di"
-	"github.com/Heyana/typesetting/font"
-	"github.com/Heyana/typesetting/language"
-	tu "github.com/Heyana/typesetting/testutils"
+	"github.com/Heyana/typesetting-go/di"
+	"github.com/Heyana/typesetting-go/font"
+	"github.com/Heyana/typesetting-go/language"
+	tu "github.com/Heyana/typesetting-go/testutils"
 	hd "github.com/go-text/typesetting-utils/harfbuzz"
 	"golang.org/x/image/math/fixed"
 )

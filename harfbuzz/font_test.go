@@ -5,9 +5,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Heyana/typesetting/font"
-	"github.com/Heyana/typesetting/language"
-	tu "github.com/Heyana/typesetting/testutils"
+	"github.com/Heyana/typesetting-go/font"
+	"github.com/Heyana/typesetting-go/language"
+	tu "github.com/Heyana/typesetting-go/testutils"
 )
 
 // Unit tests for glyph advance Widths and extents of TrueType variable fonts
@@ -268,7 +268,7 @@ func TestNames(t *testing.T) {
 }
 
 func TestUnifont(t *testing.T) {
-	// https://github.com/Heyana/typesetting/issues/140
+	// https://github.com/Heyana/typesetting-go/issues/140
 	ft := openFontFileTT(t, "bitmap/unifont-15.1.05.otf")
 
 	buf := NewBuffer()

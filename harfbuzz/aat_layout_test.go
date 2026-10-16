@@ -4,8 +4,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/Heyana/typesetting/font/opentype/tables"
-	tu "github.com/Heyana/typesetting/testutils"
+	"github.com/Heyana/typesetting-go/font/opentype/tables"
+	tu "github.com/Heyana/typesetting-go/testutils"
 )
 
 // ported from harfbuzz/test/api/test-aat-layout.c Copyright © 2018  Ebrahim Byagowi

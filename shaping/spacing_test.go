@@ -3,10 +3,10 @@ package shaping
 import (
 	"testing"
 
-	"github.com/Heyana/typesetting/di"
-	"github.com/Heyana/typesetting/font"
-	"github.com/Heyana/typesetting/language"
-	tu "github.com/Heyana/typesetting/testutils"
+	"github.com/Heyana/typesetting-go/di"
+	"github.com/Heyana/typesetting-go/font"
+	"github.com/Heyana/typesetting-go/language"
+	tu "github.com/Heyana/typesetting-go/testutils"
 	"golang.org/x/image/math/fixed"
 )
 

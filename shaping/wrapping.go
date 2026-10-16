@@ -4,8 +4,8 @@ import (
 	"math"
 	"sort"
 
-	"github.com/Heyana/typesetting/di"
-	"github.com/Heyana/typesetting/segmenter"
+	"github.com/Heyana/typesetting-go/di"
+	"github.com/Heyana/typesetting-go/segmenter"
 	"golang.org/x/image/math/fixed"
 )
 

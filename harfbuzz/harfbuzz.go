@@ -15,10 +15,10 @@ import (
 	"math/bits"
 	"strconv"
 
-	"github.com/Heyana/typesetting/font"
-	ot "github.com/Heyana/typesetting/font/opentype"
-	"github.com/Heyana/typesetting/font/opentype/tables"
-	"github.com/Heyana/typesetting/language"
+	"github.com/Heyana/typesetting-go/font"
+	ot "github.com/Heyana/typesetting-go/font/opentype"
+	"github.com/Heyana/typesetting-go/font/opentype/tables"
+	"github.com/Heyana/typesetting-go/language"
 )
 
 // based on upstream commit 5a31dd02f0b32de12336f72db9297bfe94cf0da1 (v12.3.0)

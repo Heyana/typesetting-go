@@ -3,8 +3,8 @@
 package shaping
 
 import (
-	"github.com/Heyana/typesetting/di"
-	"github.com/Heyana/typesetting/font"
+	"github.com/Heyana/typesetting-go/di"
+	"github.com/Heyana/typesetting-go/font"
 	"golang.org/x/image/math/fixed"
 )
 

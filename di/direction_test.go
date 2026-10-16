@@ -3,8 +3,8 @@ package di
 import (
 	"testing"
 
-	"github.com/Heyana/typesetting/harfbuzz"
-	tu "github.com/Heyana/typesetting/testutils"
+	"github.com/Heyana/typesetting-go/harfbuzz"
+	tu "github.com/Heyana/typesetting-go/testutils"
 )
 
 func TestDirection(t *testing.T) {

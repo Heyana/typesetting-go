@@ -3,7 +3,7 @@ package harfbuzz
 import (
 	"testing"
 
-	ucd "github.com/Heyana/typesetting/internal/unicodedata"
+	ucd "github.com/Heyana/typesetting-go/internal/unicodedata"
 )
 
 // ported from harfbuzz/test/api/test-unicode.c Copyright © 2011  Codethink Limited, Google, Inc. Ryan Lortie, Behdad Esfahbod

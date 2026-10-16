@@ -6,9 +6,9 @@ import (
 	"bytes"
 	"testing"
 
-	ot "github.com/Heyana/typesetting/font/opentype"
-	"github.com/Heyana/typesetting/font/opentype/tables"
-	tu "github.com/Heyana/typesetting/testutils"
+	ot "github.com/Heyana/typesetting-go/font/opentype"
+	"github.com/Heyana/typesetting-go/font/opentype/tables"
+	tu "github.com/Heyana/typesetting-go/testutils"
 	hb "github.com/go-text/typesetting-utils/harfbuzz"
 	td "github.com/go-text/typesetting-utils/opentype"
 )

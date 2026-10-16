@@ -5,8 +5,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/Heyana/typesetting/font"
-	"github.com/Heyana/typesetting/language"
+	"github.com/Heyana/typesetting-go/font"
+	"github.com/Heyana/typesetting-go/language"
 )
 
 func Test_familyList_insertStart(t *testing.T) {

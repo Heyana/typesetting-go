@@ -7,7 +7,7 @@ import (
 	"math/rand"
 	"testing"
 
-	tu "github.com/Heyana/typesetting/testutils"
+	tu "github.com/Heyana/typesetting-go/testutils"
 	td "github.com/go-text/typesetting-utils/opentype"
 )
 

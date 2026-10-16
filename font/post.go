@@ -5,7 +5,7 @@ package font
 import (
 	"errors"
 
-	"github.com/Heyana/typesetting/font/opentype/tables"
+	"github.com/Heyana/typesetting-go/font/opentype/tables"
 )
 
 const numBuiltInPostNames = len(builtInPostNames)

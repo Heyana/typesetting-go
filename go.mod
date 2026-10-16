@@ -1,4 +1,4 @@
-module github.com/Heyana/typesetting
+module github.com/Heyana/typesetting-go
 
 go 1.21
 

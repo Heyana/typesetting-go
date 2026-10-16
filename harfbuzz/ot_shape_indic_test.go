@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	tu "github.com/Heyana/typesetting/testutils"
+	tu "github.com/Heyana/typesetting-go/testutils"
 )
 
 func TestIndicGetCategories(t *testing.T) {

@@ -1,10 +1,10 @@
 package harfbuzz
 
 import (
-	ot "github.com/Heyana/typesetting/font/opentype"
-	"github.com/Heyana/typesetting/font/opentype/tables"
-	ucd "github.com/Heyana/typesetting/internal/unicodedata"
-	"github.com/Heyana/typesetting/language"
+	ot "github.com/Heyana/typesetting-go/font/opentype"
+	"github.com/Heyana/typesetting-go/font/opentype/tables"
+	ucd "github.com/Heyana/typesetting-go/internal/unicodedata"
+	"github.com/Heyana/typesetting-go/language"
 )
 
 type zeroWidthMarks uint8

@@ -6,7 +6,7 @@ import (
 	"sort"
 	"unicode"
 
-	"github.com/Heyana/typesetting/language"
+	"github.com/Heyana/typesetting-go/language"
 )
 
 // GeneralCategory is an enum storing the Unicode General Category of a rune.

@@ -3,7 +3,7 @@ package harfbuzz
 import (
 	"fmt"
 
-	ucd "github.com/Heyana/typesetting/internal/unicodedata"
+	ucd "github.com/Heyana/typesetting-go/internal/unicodedata"
 )
 
 // ported from harfbuzz/src/hb-ot-shape-fallback.cc Copyright © 2011,2012 Google, Inc. Behdad Esfahbod

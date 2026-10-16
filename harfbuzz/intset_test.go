@@ -5,7 +5,7 @@ import (
 	"sort"
 	"testing"
 
-	tu "github.com/Heyana/typesetting/testutils"
+	tu "github.com/Heyana/typesetting-go/testutils"
 )
 
 // newIntSet builds a set containing the given runes.

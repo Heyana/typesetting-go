@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Heyana/typesetting/font"
-	ot "github.com/Heyana/typesetting/font/opentype"
+	"github.com/Heyana/typesetting-go/font"
+	ot "github.com/Heyana/typesetting-go/font/opentype"
 )
 
 // Checks on wght: a variable font's weights needed these before any of them

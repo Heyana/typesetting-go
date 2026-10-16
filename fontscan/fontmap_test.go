@@ -12,11 +12,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Heyana/typesetting/font"
-	ot "github.com/Heyana/typesetting/font/opentype"
-	"github.com/Heyana/typesetting/language"
-	"github.com/Heyana/typesetting/shaping"
-	tu "github.com/Heyana/typesetting/testutils"
+	"github.com/Heyana/typesetting-go/font"
+	ot "github.com/Heyana/typesetting-go/font/opentype"
+	"github.com/Heyana/typesetting-go/language"
+	"github.com/Heyana/typesetting-go/shaping"
+	tu "github.com/Heyana/typesetting-go/testutils"
 )
 
 func ExampleFontMap_UseSystemFonts() {
@@ -382,7 +382,7 @@ func TestDumpSystemFonts(t *testing.T) {
 	}
 	code := fmt.Sprintf(`
 	package fontscan
-	import "github.com/Heyana/typesetting/font"
+	import "github.com/Heyana/typesetting-go/font"
 
 	// extracted from a linux system
 	var linuxSampleFontSet = 

@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/Heyana/typesetting/font/opentype/tables"
+	"github.com/Heyana/typesetting-go/font/opentype/tables"
 )
 
 // axis records

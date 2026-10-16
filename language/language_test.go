@@ -6,7 +6,7 @@ import (
 	"sort"
 	"testing"
 
-	tu "github.com/Heyana/typesetting/testutils"
+	tu "github.com/Heyana/typesetting-go/testutils"
 )
 
 func TestLanguage(t *testing.T) {

@@ -6,8 +6,8 @@ import (
 	"math/bits"
 	"sort"
 
-	"github.com/Heyana/typesetting/font"
-	"github.com/Heyana/typesetting/language"
+	"github.com/Heyana/typesetting-go/font"
+	"github.com/Heyana/typesetting-go/language"
 )
 
 // Rune coverage implementation, inspired by the fontconfig FcCharset type.

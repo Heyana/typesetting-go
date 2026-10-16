@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	tu "github.com/Heyana/typesetting/testutils"
+	tu "github.com/Heyana/typesetting-go/testutils"
 )
 
 type initMode int

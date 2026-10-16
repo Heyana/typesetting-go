@@ -11,7 +11,7 @@ import (
 	"sort"
 	"strings"
 
-	ot "github.com/Heyana/typesetting/font/opentype"
+	ot "github.com/Heyana/typesetting-go/font/opentype"
 )
 
 // DefaultFontDirectories return the OS-dependent usual directories for

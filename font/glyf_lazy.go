@@ -1,7 +1,7 @@
 package font
 
 import (
-	"github.com/Heyana/typesetting/font/opentype/tables"
+	"github.com/Heyana/typesetting-go/font/opentype/tables"
 )
 
 // Keep no parsed glyf table. Upstream parses the whole table into a []Glyph

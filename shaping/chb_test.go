@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Heyana/typesetting/font"
+	"github.com/Heyana/typesetting-go/font"
 )
 
 // Compares CHB (C HarfBuzz) with HarfbuzzShaper (the Go port): the same font

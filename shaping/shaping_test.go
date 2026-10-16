@@ -8,11 +8,11 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/Heyana/typesetting/di"
-	"github.com/Heyana/typesetting/font"
-	ot "github.com/Heyana/typesetting/font/opentype"
-	"github.com/Heyana/typesetting/language"
-	tu "github.com/Heyana/typesetting/testutils"
+	"github.com/Heyana/typesetting-go/di"
+	"github.com/Heyana/typesetting-go/font"
+	ot "github.com/Heyana/typesetting-go/font/opentype"
+	"github.com/Heyana/typesetting-go/language"
+	tu "github.com/Heyana/typesetting-go/testutils"
 	hd "github.com/go-text/typesetting-utils/harfbuzz"
 	td "github.com/go-text/typesetting-utils/opentype"
 	"golang.org/x/image/font/gofont/gomono"
@@ -530,7 +530,7 @@ func TestShapeVertical(t *testing.T) {
 }
 
 func TestCFF2(t *testing.T) {
-	// regression test for https://github.com/Heyana/typesetting/issues/118
+	// regression test for https://github.com/Heyana/typesetting-go/issues/118
 	b, err := td.Files.ReadFile("common/NotoSansCJKjp-VF.otf")
 	tu.AssertNoErr(t, err)
 

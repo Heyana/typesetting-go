@@ -42,7 +42,7 @@ import "C"
 import (
 	"unsafe"
 
-	"github.com/Heyana/typesetting/font"
+	"github.com/Heyana/typesetting-go/font"
 	"golang.org/x/image/math/fixed"
 )
 

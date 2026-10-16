@@ -4,7 +4,7 @@ import (
 	"container/list"
 	"sort"
 
-	ucd "github.com/Heyana/typesetting/internal/unicodedata"
+	ucd "github.com/Heyana/typesetting-go/internal/unicodedata"
 )
 
 // This file contains a port of the reference implementation of the

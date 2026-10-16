@@ -9,8 +9,8 @@ import (
 	"errors"
 	"fmt"
 
-	ps "github.com/Heyana/typesetting/font/cff/interpreter"
-	"github.com/Heyana/typesetting/font/opentype"
+	ps "github.com/Heyana/typesetting-go/font/cff/interpreter"
+	"github.com/Heyana/typesetting-go/font/opentype"
 )
 
 var errUnsupportedCFFVersion = errors.New("unsupported CFF version")

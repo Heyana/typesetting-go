@@ -4,8 +4,8 @@ import (
 	"math"
 	"sort"
 
-	"github.com/Heyana/typesetting/font"
-	"github.com/Heyana/typesetting/language"
+	"github.com/Heyana/typesetting-go/font"
+	"github.com/Heyana/typesetting-go/language"
 )
 
 // Query exposes the intention of an author about the

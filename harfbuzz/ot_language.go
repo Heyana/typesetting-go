@@ -3,7 +3,7 @@ package harfbuzz
 import (
 	"strings"
 
-	"github.com/Heyana/typesetting/font/opentype/tables"
+	"github.com/Heyana/typesetting-go/font/opentype/tables"
 )
 
 type langTag struct {

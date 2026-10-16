@@ -3,7 +3,7 @@
 package segmenter
 
 import (
-	ucd "github.com/Heyana/typesetting/internal/unicodedata"
+	ucd "github.com/Heyana/typesetting-go/internal/unicodedata"
 )
 
 // Apply the Line Breaking Rules and returns the computed break opportunity

@@ -2,7 +2,7 @@
 
 package tables
 
-import "github.com/Heyana/typesetting/language"
+import "github.com/Heyana/typesetting-go/language"
 
 // Ltag is the language tags table
 // See https://developer.apple.com/fonts/TrueType-Reference-Manual/RM06/Chap6ltag.html

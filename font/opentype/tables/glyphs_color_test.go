@@ -3,7 +3,7 @@ package tables
 import (
 	"testing"
 
-	tu "github.com/Heyana/typesetting/testutils"
+	tu "github.com/Heyana/typesetting-go/testutils"
 )
 
 func TestCOLR(t *testing.T) {

@@ -1,7 +1,7 @@
 package bidi
 
 import (
-	ucd "github.com/Heyana/typesetting/internal/unicodedata"
+	ucd "github.com/Heyana/typesetting-go/internal/unicodedata"
 )
 
 // This implementation is a port based on the reference implementation found at:

@@ -1,7 +1,7 @@
 package harfbuzz
 
 import (
-	ucd "github.com/Heyana/typesetting/internal/unicodedata"
+	ucd "github.com/Heyana/typesetting-go/internal/unicodedata"
 )
 
 // generalCategory is an enum value to allow compact storage (see generalCategories)

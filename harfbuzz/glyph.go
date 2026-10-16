@@ -3,8 +3,8 @@ package harfbuzz
 import (
 	"fmt"
 
-	"github.com/Heyana/typesetting/font/opentype/tables"
-	ucd "github.com/Heyana/typesetting/internal/unicodedata"
+	"github.com/Heyana/typesetting-go/font/opentype/tables"
+	ucd "github.com/Heyana/typesetting-go/internal/unicodedata"
 )
 
 // Position stores a position, scaled according to the `Font`

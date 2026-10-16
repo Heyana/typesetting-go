@@ -1,6 +1,6 @@
 package fontscan
 
-import "github.com/Heyana/typesetting/font"
+import "github.com/Heyana/typesetting-go/font"
 
 // extracted from a linux system
 var linuxSampleFontSet = fontSet{

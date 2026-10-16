@@ -10,9 +10,9 @@ import (
 	"reflect"
 	"testing"
 
-	ot "github.com/Heyana/typesetting/font/opentype"
-	"github.com/Heyana/typesetting/font/opentype/tables"
-	tu "github.com/Heyana/typesetting/testutils"
+	ot "github.com/Heyana/typesetting-go/font/opentype"
+	"github.com/Heyana/typesetting-go/font/opentype/tables"
+	tu "github.com/Heyana/typesetting-go/testutils"
 	td "github.com/go-text/typesetting-utils/opentype"
 )
 

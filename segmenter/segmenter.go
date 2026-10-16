@@ -16,7 +16,7 @@ import (
 	"fmt"
 	"unicode/utf8"
 
-	ucd "github.com/Heyana/typesetting/internal/unicodedata"
+	ucd "github.com/Heyana/typesetting-go/internal/unicodedata"
 )
 
 // breakAttr is a flag storing the break properties between two runes of

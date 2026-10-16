@@ -4,7 +4,7 @@ import (
 	"testing"
 	"unicode"
 
-	tu "github.com/Heyana/typesetting/testutils"
+	tu "github.com/Heyana/typesetting-go/testutils"
 )
 
 func TestParseScript(t *testing.T) {

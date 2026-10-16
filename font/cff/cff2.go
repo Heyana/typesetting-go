@@ -5,8 +5,8 @@ import (
 	"errors"
 	"fmt"
 
-	ps "github.com/Heyana/typesetting/font/cff/interpreter"
-	"github.com/Heyana/typesetting/font/opentype/tables"
+	ps "github.com/Heyana/typesetting-go/font/cff/interpreter"
+	"github.com/Heyana/typesetting-go/font/opentype/tables"
 )
 
 // CFF2 represents a parsed 'CFF2' Opentype table.

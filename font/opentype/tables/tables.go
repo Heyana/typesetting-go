@@ -2,7 +2,7 @@
 
 package tables
 
-import "github.com/Heyana/typesetting/font/opentype"
+import "github.com/Heyana/typesetting-go/font/opentype"
 
 //go:generate ../../../../typesetting-utils/generators/binarygen/cmd/generator . _src.go
 

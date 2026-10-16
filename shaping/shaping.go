@@ -3,10 +3,10 @@
 package shaping
 
 import (
-	"github.com/Heyana/typesetting/di"
-	ft "github.com/Heyana/typesetting/font"
-	"github.com/Heyana/typesetting/harfbuzz"
-	ucd "github.com/Heyana/typesetting/internal/unicodedata"
+	"github.com/Heyana/typesetting-go/di"
+	ft "github.com/Heyana/typesetting-go/font"
+	"github.com/Heyana/typesetting-go/harfbuzz"
+	ucd "github.com/Heyana/typesetting-go/internal/unicodedata"
 	"golang.org/x/image/math/fixed"
 )
 

@@ -1,8 +1,8 @@
 package harfbuzz
 
 import (
-	"github.com/Heyana/typesetting/font/opentype/tables"
-	"github.com/Heyana/typesetting/language"
+	"github.com/Heyana/typesetting-go/font/opentype/tables"
+	"github.com/Heyana/typesetting-go/language"
 )
 
 /* ported from harfbuzz/src/hb-buffer.hh and hb-buffer.h

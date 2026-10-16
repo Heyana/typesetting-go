@@ -3,7 +3,7 @@ package harfbuzz
 import (
 	"testing"
 
-	ot "github.com/Heyana/typesetting/font/opentype"
+	ot "github.com/Heyana/typesetting-go/font/opentype"
 )
 
 func TestOTFeature(t *testing.T) {

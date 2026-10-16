@@ -7,7 +7,7 @@ import (
 	"errors"
 	"sort"
 
-	"github.com/Heyana/typesetting/font/opentype/tables"
+	"github.com/Heyana/typesetting-go/font/opentype/tables"
 )
 
 // This file implements the logic needed to use a cmap.

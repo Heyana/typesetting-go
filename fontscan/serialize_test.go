@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Heyana/typesetting/font"
-	"github.com/Heyana/typesetting/language"
+	"github.com/Heyana/typesetting-go/font"
+	"github.com/Heyana/typesetting-go/language"
 )
 
 func Test_serializeFootprints(t *testing.T) {

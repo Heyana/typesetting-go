@@ -7,9 +7,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Heyana/typesetting/di"
-	"github.com/Heyana/typesetting/language"
-	"github.com/Heyana/typesetting/segmenter"
+	"github.com/Heyana/typesetting-go/di"
+	"github.com/Heyana/typesetting-go/language"
+	"github.com/Heyana/typesetting-go/segmenter"
 	"golang.org/x/image/math/fixed"
 )
 

@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	tu "github.com/Heyana/typesetting/testutils"
+	tu "github.com/Heyana/typesetting-go/testutils"
 )
 
 func TestDefaultDirs(t *testing.T) {

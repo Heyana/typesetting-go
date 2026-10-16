@@ -3,13 +3,13 @@
 package shaping
 
 import (
-	"github.com/Heyana/typesetting/bidi"
-	"github.com/Heyana/typesetting/di"
-	"github.com/Heyana/typesetting/font"
-	ot "github.com/Heyana/typesetting/font/opentype"
-	"github.com/Heyana/typesetting/harfbuzz"
-	ucd "github.com/Heyana/typesetting/internal/unicodedata"
-	"github.com/Heyana/typesetting/language"
+	"github.com/Heyana/typesetting-go/bidi"
+	"github.com/Heyana/typesetting-go/di"
+	"github.com/Heyana/typesetting-go/font"
+	ot "github.com/Heyana/typesetting-go/font/opentype"
+	"github.com/Heyana/typesetting-go/harfbuzz"
+	ucd "github.com/Heyana/typesetting-go/internal/unicodedata"
+	"github.com/Heyana/typesetting-go/language"
 	"golang.org/x/image/math/fixed"
 )
 

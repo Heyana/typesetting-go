@@ -5,7 +5,7 @@ package font
 import (
 	"testing"
 
-	tu "github.com/Heyana/typesetting/testutils"
+	tu "github.com/Heyana/typesetting-go/testutils"
 )
 
 func TestSVGViewBox(t *testing.T) {

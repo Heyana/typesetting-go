@@ -3,7 +3,7 @@ package harfbuzz
 import (
 	"testing"
 
-	"github.com/Heyana/typesetting/language"
+	"github.com/Heyana/typesetting-go/language"
 )
 
 func TestNumArabicLookup(t *testing.T) {

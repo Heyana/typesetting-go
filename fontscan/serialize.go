@@ -11,7 +11,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/Heyana/typesetting/font"
+	"github.com/Heyana/typesetting-go/font"
 )
 
 // defines the routines to serialize a font set to
